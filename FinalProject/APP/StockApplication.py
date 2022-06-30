@@ -7,10 +7,17 @@ from sklearn.preprocessing import MinMaxScaler
 import pandas as pd
 import numpy as np
 import math
-from keras.models import load_model
-from keras.models import Sequential
-from keras.layers import Dense, LSTM
-from keras.layers import Dropout
+
+# from keras.models import Sequential
+# from keras.layers import Dense, LSTM
+# from keras.models import load_model
+# from keras.layers import Dropout
+
+from tensorflow.python.keras.models import load_model
+from tensorflow.python.keras.models import Sequential
+from tensorflow.python.keras.layers import Dense, LSTM
+from tensorflow.python.keras.layers import Dropout
+
 import xgboost
 import pickle
 
